@@ -1,0 +1,196 @@
+
+body {
+    background-color: #9aa0a5;
+    font-family: 'Arial', sans-serif;
+}
+
+header .container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+header img {
+    margin-top: 10px; 
+    max-width: 100%; 
+    height: auto; 
+}
+
+aside {
+    max-height: 500px;
+    overflow-y: auto;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+aside h2 {
+    font-size: 1.5rem;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+aside p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #555;
+}
+
+.rutina {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.rutina:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.rutina h2 {
+    font-size: 1.25rem;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.ejercicio {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ejercicio:hover {
+    background-color: #e9f7ff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.oculto{
+    display: none;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+.modal-content {
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.modal-header {
+    background-color: #007bff;
+    color: white;
+    border-bottom: 2px solid #0056b3;
+}
+
+.modal-body p {
+    margin-bottom: 0.5rem;
+}
+
+.img-thumbnail {
+    border: 2px solid #007bff;
+}
+
+.info-bloques .card {
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-bloques .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.info-bloques .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.info-bloques .card-text {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+.card-body i {
+    display: block;
+    margin: 0 auto;
+    color: #007bff;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.card-body i:hover {
+    transform: scale(1.2);
+    color: #0056b3;
+}
+
+.card-title {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}

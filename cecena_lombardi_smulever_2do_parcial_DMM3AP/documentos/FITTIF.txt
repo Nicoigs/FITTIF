@@ -1,0 +1,3 @@
+En esta WebApp vas a poder crear y guardar rutinas de ejercicios para tenerlas todas en un solo lugar. Usa el boton de 'Agregar Rutina' para crear una rutina y agregale tus ejercicios favoritos con el boton de 'Agregar Ejercicios'.
+No te preocuper si cambias de opinion, vas a poder eliminar tanto ejercicios como rutinas!
+
